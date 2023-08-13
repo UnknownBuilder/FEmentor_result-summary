@@ -6,6 +6,10 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;900&family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Results summary component</title>
   </style>
@@ -21,19 +25,47 @@
         </div>
       </div>
       <div class="container-right">
-        <h2>Summary</h2>
+        <h1 class="cr-heading">Summary</h1>
         <ul>
-          <li id="1">
-            <div>Reaction <span class="num">0</span> / <span class="deno">100</span></div>
+          <li class="list-container-1">
+            <div class="desc">
+              <img src="assets/images/icon-reaction.svg">
+              <p class="lb-reaction">Reaction</p>
+            </div>
+            <div class="fraction">
+              <span class="num">80</span>
+              <span class="deno">/100</span>
+            </div>
           </li>
-          <li id="2">
-            <div>Memory <span class="num">92</span> / <span class="deno">100</span></div>
+          <li class="list-container-2">
+            <div class="desc">
+              <img src="assets/images/icon-memory.svg">
+              <p class="lb-memory">Memory</p>
+            </div>
+            <div class="fraction">
+              <span class="num">92</span>
+              <span class="deno">/100</span>
+            </div>
           </li>
-          <li id="3">
-            <div>Verbal <span class="num">1</span> / <span class="deno">100</span></div>
+          <li class="list-container-3">
+            <div class="desc">
+              <img src="assets/images/icon-verbal.svg">
+              <p class="lb-verbal">Verbal</p>
+            </div>
+            <div class="fraction">
+              <span class="num">61</span>
+              <span class="deno">/100</span>
+            </div>
           </li>
-          <li id="4">
-            <div>Visual <span class="num">72</span> / <span class="deno">100</span></div>
+          <li class="list-container-4">
+            <div class="desc">
+              <img src="assets/images/icon-visual.svg">
+              <p class="lb-visual">Visual</p>
+            </div>
+            <div class="fraction">
+              <span class="num">72</span>
+              <span class="deno">/100</span>
+            </div>
           </li>
         </ul>
         <button class="btn-continue">Continue</button>
