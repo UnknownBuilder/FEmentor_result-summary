@@ -44,11 +44,52 @@
     
 }
 
-.container-left h1 {
+.cl-arch{
 
-    font-weight: 700;
-    font-size: large;
+    margin-top:35px;
+    background: blue;
+    width: 175px;
+    height: 175px;
+    border-radius: 150px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+
+}
+
+.cl-heading {
+
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: larger;
     color:hsl(221, 100%, 96%);
+
+}
+
+.cl-message {
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 25px;
+
+}
+
+.cl-summary-message {
+
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.cl-primary-message {
+
+    margin-top:25px;
+    margin: 15px 15px;
+    color:hsl(241, 100%, 89%);
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .container-right{
@@ -62,16 +103,12 @@
     border-radius: 8.5%;
 }
 
-.container-right h1 {
-
-    font-weight: 700;
-    font-size: large;
-}
-
 .cr-heading {
 
     margin-top: 25px;
     margin-right:170px;
+    font-weight: 700;
+    font-size: large;
 }
 
 .deno {
@@ -79,6 +116,17 @@
     padding-right: 10px;
     color:grey;
     font-weight: 700;
+}
+
+.deno-summary {
+
+    margin-left:12px;
+
+    font-size: 15px;
+    color:hsl(241, 100%, 89%);
+
+    position: relative;
+    bottom:10px;
 }
 
 .desc {
@@ -148,10 +196,7 @@ li {
     width:250px;
     height: 50px;
 
-    background-color:aqua;
     border-radius: 10px;
-
-
 }
 
 main {
@@ -166,6 +211,23 @@ main {
 .num {
 
     font-weight: 800;
+}
+
+
+.num-summary {
+
+    font-size: 65px;
+    font-weight: 700;
+    color: white;
+}
+
+.result-summary{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 35px;
 }
 
 footer {
