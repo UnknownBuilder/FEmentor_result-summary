@@ -28,7 +28,6 @@
     display:grid;
     align-content: center;
     justify-content: center;
-    flex-direction: column;
     min-height: 95vh;
 }
 
@@ -38,8 +37,8 @@
     flex-direction: column;
     align-items: center;
     border-radius: 8.5%;
-    width: 50%;
-    height:100%;
+    /* width: 50%;
+    height:100%; */
 
     background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     
@@ -70,7 +69,7 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-
+    width: 16rem;
     margin: 25px;
 
 }
@@ -85,11 +84,8 @@
 
 .cl-primary-message {
 
-    margin-top:25px;
     margin: 15px 15px;
     color:hsl(241, 100%, 89%);
-    display:flex;
-    flex-wrap: wrap;
     text-align: center;
 }
 
@@ -99,8 +95,8 @@
     flex-direction: column;
     align-items: center;
     box-shadow: 10px 10px 30px hsl(221, 100%, 96%);
-    width:50%;
-    height:100%;
+    /* width:50%;
+    height:100%; */
     border-radius: 8.5%;
 }
 
@@ -203,8 +199,6 @@ li {
 main {
 
     display:flex;
-    align-content: center;
-    margin: auto;
     width: 625px;
     height: 425px;
 }
@@ -239,5 +233,19 @@ footer {
     flex-direction: column;
     min-height: 5vh;
     
+}
+
+@media (max-width: 625px) {
+
+    main {
+
+        width: calc(625px / 2);
+        height: 850px;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    } 
+
+
 }
 
