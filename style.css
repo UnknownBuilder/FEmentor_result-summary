@@ -25,10 +25,11 @@
 
 .container {
 
-    display:flex;
+    display:grid;
     align-content: center;
+    justify-content: center;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 95vh;
 }
 
 .container-left {
@@ -234,6 +235,9 @@ footer {
 
     display: flex;
     align-items: center;
+    justify-content: end;
     flex-direction: column;
+    min-height: 5vh;
+    
 }
 
