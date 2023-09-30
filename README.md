@@ -66,5 +66,5 @@ Going forward, I'm going to maintain a "mobile first" mindset. I also intend to 
 ### Useful resources
 
 - [Get Started with Grid Without Being Overwhelmed](https://www.youtube.com/watch?v=8QSqwbSztnA&t=310s&ab_channel=KevinPowell) - This helped me gain the basics of CSS Grid
-- [Introduction to Responsive Web Design](https://www.youtube.com/watch?v=srvUrASNj0s&t=4841s&ab_channel=freeCodeCamp.org) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Introduction to Responsive Web Design](https://www.youtube.com/watch?v=srvUrASNj0s&t=4841s&ab_channel=freeCodeCamp.org) - The core of what I learned when it came to responsive web design. 
 
