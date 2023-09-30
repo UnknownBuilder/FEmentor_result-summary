@@ -25,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![Screenshot of Website](screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/UnknownBuilder/FEmentor_result-summary/tree/main](https://github.com/UnknownBuilder/FEmentor_result-summary/tree/main)
+- Live Site URL: [https://unknownbuilder.github.io/FEmentor_result-summary/](https://unknownbuilder.github.io/FEmentor_result-summary/)
 
 ## My process
 
